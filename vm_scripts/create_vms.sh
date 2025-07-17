@@ -19,3 +19,5 @@ docker run -dit \
   --cap-add=SYS_ADMIN \
   --cap-add=NET_ADMIN \
   "$IMAGE_NAME"
+
+  
