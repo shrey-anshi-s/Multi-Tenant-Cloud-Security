@@ -1,0 +1,10 @@
+[snort-icmp]
+enabled = true
+filter = snort-icmp
+logpath = /var/log/snort/alert
+action = iptables[name=SNORT, port=any, protocol=all]
+maxretry = 2
+bantime = 600
+findtime = 60
+
+
